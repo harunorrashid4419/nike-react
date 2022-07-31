@@ -1,11 +1,27 @@
-.header{
+.header {
     font-size: 75px;
     color: #FA804C;
     font-weight: bold;
 }
-.different{
+
+.different {
     color: #363958;
 }
-.same-button{
+
+.same-button {
     background-color: #3D4FF3;
+}
+
+.learge-device {
+    width: 50%;
+}
+
+@media screen and (max-width:992px) {
+    .learge-device {
+        width: 100%;
+    }
+    .flex-direction{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
